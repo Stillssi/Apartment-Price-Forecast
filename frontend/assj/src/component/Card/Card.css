@@ -1,0 +1,82 @@
+.top-container {
+  display: flex;
+  height: 90%;
+  justify-content: center;
+  margin: 2rem;
+}
+.CompactCard {
+  display: flex;
+  flex-basis: 330px;
+  height: 210px;
+  border-radius: 0.7rem;
+  color: #fff;
+  position: relative;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+.CompactCard:hover {
+  box-shadow: none !important;
+}
+
+.detail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info {
+  margin-top: 13px;
+}
+.detail > div {
+  width: 100%;
+  padding: 0.3rem 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.detail > div:nth-child(1) {
+  background: #d9d9d9;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+
+  text-align: center;
+  color: #000000;
+}
+
+.detail > div > div:nth-child(1) {
+  width: 30%;
+  text-align: left;
+  margin-left: 2rem;
+  float: left;
+}
+
+.detail > div > div :nth-child(2) {
+  width: 50%;
+  text-align: center;
+  float: right;
+}
+
+.Name {
+  display: flex;
+  justify-content: center;
+  background: #d9d9d9;
+  align-items: center;
+  /* identical to box height */
+  border-top-left-radius: 0.7rem;
+  border-top-right-radius: 0.7rem;
+}
+
+.rank-img {
+  height: 40px;
+  margin-right: 10px;
+}

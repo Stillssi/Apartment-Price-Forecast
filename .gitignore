@@ -204,3 +204,8 @@ $RECYCLE.BIN/
 
 # Windows Shortcuts
 *.lnk
+
+# django
+migrations/
+
+img/
